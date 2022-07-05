@@ -1,3 +1,40 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+h1 {
+    font-size: 75px;
+}
+
+section {
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 190px;
+}
+
+#top-banner {
+    background-image: url(images/donation21.png);
+    background-color: rgba(0, 0, 0, 0.607);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#top-banner div {
+    margin: 100px;
+    color: white;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(45deg, blue, rgb(72, 8, 98));
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 25px white;
+}
