@@ -53,8 +53,12 @@ section {
 
 #donate-amount p {
     opacity: 50%;
+}
+
+#donate-amount span {
     box-shadow: 0px 1px grey;
-    padding-bottom: 10px;
+    width: 60%;
+    padding-bottom: 5px;
 }
 
 #amount-box {
