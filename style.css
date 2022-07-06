@@ -4,7 +4,7 @@ body {
 
 
 section {
-    height: 300px;
+    height: 400px;
     padding-top: 50px;
     padding-bottom: 190px;
 }
@@ -48,17 +48,20 @@ section {
     text-align: center;
     margin-left: 250px;
     font-size: 21px;
+
 }
 
 #donate-amount p {
     opacity: 50%;
+    box-shadow: 0px 1px grey;
+    padding-bottom: 10px;
 }
 
 #amount-box {
     display: flex;
     margin-top: 35px;
     margin-bottom: 35px;
-    box-shadow: 0px 1px grey;
+
 }
 
 .amount {
