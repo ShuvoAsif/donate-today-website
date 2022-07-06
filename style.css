@@ -125,6 +125,10 @@ section {
     font-size: 21px;
 }
 
+#situation p {
+    opacity: 50%;
+}
+
 #photo {
     display: flex;
     margin-top: 35px;
