@@ -2,9 +2,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-#top-banner h1 {
-    font-size: 75px;
-}
 
 section {
     height: 300px;
@@ -12,12 +9,19 @@ section {
     padding-bottom: 190px;
 }
 
+
+
 #top-banner {
     background-image: url(images/donation21.png);
     background-color: rgba(0, 0, 0, 0.607);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 300px;
+}
+
+
+#top-banner h1 {
+    font-size: 75px;
 }
 
 #top-banner div {
@@ -46,7 +50,7 @@ section {
     font-size: 21px;
 }
 
-#donate-amount h6 {
+#donate-amount p {
     opacity: 50%;
 }
 
@@ -58,12 +62,19 @@ section {
 }
 
 .amount {
-    border: 3px solid blue;
-    background-color: aqua;
     margin: 10px;
     padding: 10px;
     width: 350px;
     height: 100px;
+}
+
+#tk {
+    border: 3px solid blue;
+    background-color: aqua;
+}
+
+#tk h1 {
+    color: blue;
 }
 
 #plan {
@@ -99,6 +110,29 @@ section {
 
 #education {
     background-color: burlywood;
+}
+
+#form {
+    width: 60%;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 21px;
+}
+
+#form p {
+    opacity: 50%;
+}
+
+#mail {
+    border: 3px solid blue;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+#form-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: skyblue;
 }
 
 footer {
